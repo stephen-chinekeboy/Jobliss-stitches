@@ -18,9 +18,9 @@ nav{
 /* body {
   background-color: #080808;
 } */
-.logo {
+h1 {
   font-family: 'Playfair Display' , serif;
-  font-size: 40px;
+  font-size: 30px;
   color: #fff;
   margin-right: auto;
   padding: 0 30px;
@@ -70,18 +70,18 @@ nav svg{
   justify-content: flex-start;
 }
 
-.logo {
-  padding: 20px 30px ;
+h1 {
+  padding: 20px;
+  width: 200px;
 }
 
-.logo .stitch {
+h1 .stitch {
   color: #d4a017;
-  font-size: 30px;
-  padding-top: ;
+  font-size: 25px;
 }
 
-.logo p{
-  font-size: 17px;
+h1 .made{
+  font-size: 15px;
 }
 .sidebar li{
   width: 100%;
@@ -101,7 +101,7 @@ nav svg{
   background-repeat: no-repeat;
   width: 100%;
   height: 90vh;
-  margin-top: 140px;
+  margin-top: 130px;
   display: flex;
   justify-content: start;
   align-items: start;
@@ -118,7 +118,7 @@ nav svg{
 .hero-text h1 {
   font-size: 70px;
   font-family: 'Playfair Display' , serif;
-  width: 400px;
+  width: 450px;
 }
 
 .hero-text span {
@@ -223,11 +223,11 @@ nav svg{
 
   .hero {
     margin-top: 90px;
-    height: 115vh;
+    height: 120vh;
   }
 
   .hero-flex {
-    padding-right: 10px;
+    padding-right: 0px;
     padding-top: 40px;
   }
 
