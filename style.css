@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+section {
+  scroll-margin-top: 80px;
+}
+
 nav{
   background-color: #0b0b0b;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -18,7 +22,7 @@ nav{
 /* body {
   background-color: #080808;
 } */
-h1 {
+ul h1 {
   font-family: 'Playfair Display' , serif;
   font-size: 30px;
   color: #fff;
@@ -235,6 +239,7 @@ ul h1 .made{
   font-family: 'Playfair Display' , serif;
   font-size: 50px;
   text-transform: capitalize;
+  color: #fff;
 }
 
 .service-line {
